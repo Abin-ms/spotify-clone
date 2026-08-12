@@ -9,16 +9,17 @@ nav{
     justify-content: space-between;
     padding: 0 200px;
     background-color: black;
-    height: 80px;
+    height: 70px;
     align-items: center;
 }
 #logo-main{
-    width: 100px;
+    width: 120px;
     height: 50px;
     display: flex;
     
 }
 #logo-main svg{
+    
     fill: white;
 
 }
@@ -29,18 +30,19 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
 }
 .div-1 a{
     color: white;
     text-decoration:none;
+    font-size: 16px;
 }
 .div-1 h2{
     color: white;
 }
 .div-2{
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 
 .section-1{
@@ -73,6 +75,71 @@ nav{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/* .section-1 .h22{
-    padding-bottom: 80px;
+.section-2{
+    border: 2px solid black;
+}
+.section-2 .sec2-div1{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid red;
+   
+}
+.section-2 .sec2-div2{
+    display: flex;
+    /* border: 3px solid blue; */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+     text-align: center;
+     margin-bottom: 80px
+    
+     
+
+   
+}
+/* .section-2 .play-logo{
+    border: 2px solid yellow;
+    
+}
+.section-2 .library-logo{
+    border: 2px solid yellow;
+}
+.section-2 .fav-logo{
+    border: 2px solid yellow;
+}
+.section-2 .idi-logo{
+    border: 2px solid yellow;
 } */
+
+.box-1{
+    /* border: 2px solid brown; */
+     padding: 40px;
+}
+.box-2{
+    /* border: 2px solid brown; */
+    padding: 40px;
+}
+.box-3{
+    /* border: 2px solid brown; */
+    padding: 40px;
+}
+.box-4{
+    /* border: 2px solid brown; */
+    padding: 40px;
+}
+
+.box-1-1{
+    padding: 10px;
+}
+.box-2-2{
+    padding: 10px;
+}
+.box-3-3{
+    padding: 10px;
+}
+.box-4-4{
+    padding: 10px;
+}
