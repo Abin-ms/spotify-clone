@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{
     display: flex;
@@ -19,6 +20,10 @@ nav{
 }
 #logo-main svg{
     fill: white;
+
+}
+#logo-main svg:hover{
+    fill: green;
 }
 .div-1{
     display: flex;
@@ -41,13 +46,25 @@ nav{
 .section-1{
     background-image: url(./imagess/hero-image.jpeg);
     background-repeat: no-repeat;
-   background-size: cover;
-    background-position: center;
+   background-size: 100%;
+    /* background-position: center; */
     position: relative;
     padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 1000px;
+    height: 550px;
+    overflow: hidden;
+    background-position-x: center;
+    background-position-y: 40%;
+}
+.section-1 h2{
+    font-size: 60px;
+    color: white;
+}
+.section-1 button{
+    height: 45px;
+    width: 140px;
+    border-radius: 30px;
 }
