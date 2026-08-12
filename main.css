@@ -21,7 +21,8 @@ nav {
   fill: white;
 }
 #logo-main svg:hover {
-  fill: green;
+  /* fill: green; */
+  cursor: pointer;
 }
 .div-1 {
   display: flex;
@@ -33,6 +34,9 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 16px;
+}
+.div-1 a:hover{
+    color:  rgb(30, 215, 96);
 }
 .div-1 h2 {
   color: white;
@@ -79,6 +83,9 @@ nav {
   margin-bottom: 10px;
   border: none;
   background-color: white;
+}
+.section-1 button:hover{
+    cursor: pointer;
 }
 /* .section-2{
     border: 2px solid black;
