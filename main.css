@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -32,4 +36,18 @@ nav{
 .div-2{
     display: flex;
     gap: 40px;
+}
+
+.section-1{
+    background-image: url(./imagess/hero-image.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 1000px;
 }
