@@ -62,9 +62,17 @@ nav{
 .section-1 h2{
     font-size: 60px;
     color: white;
+    position: relative;
+    
 }
 .section-1 button{
     height: 45px;
     width: 140px;
     border-radius: 30px;
+    font-weight:500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+/* .section-1 .h22{
+    padding-bottom: 80px;
+} */
