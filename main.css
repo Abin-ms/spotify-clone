@@ -1,0 +1,35 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+}
+#logo-main{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    
+}
+#logo-main svg{
+    fill: white;
+}
+.div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.div-1 a{
+    color: white;
+    text-decoration:none;
+}
+.div-1 h2{
+    color: white;
+}
+.div-2{
+    display: flex;
+    gap: 40px;
+}
