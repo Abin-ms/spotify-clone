@@ -173,9 +173,47 @@ nav{
     font-size: 45px 
     
 }
-.section-4 h1{
+.s3-cl img{
+    margin-bottom: 0;
+}
+.s3-cl{
+    margin-bottom: 0;
+}
+/* .section-4 h1{
     font-size: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+.section-4 {
+    padding: 60px 10%;
+}
+
+.section-4 h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.faq-container {
+    width: 100%;
+}
+
+details {
+    border-bottom: 1px solid #ddd;
+}
+
+summary {
+    padding: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+     position: relative;
+}
+summary::after {
+    content: "⌄";
+    position: absolute;
+    right: 25px;
+    font-size: 25px;
+    font-weight: lighter;
 }
