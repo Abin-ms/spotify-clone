@@ -84,9 +84,9 @@ nav{
     border: none;
     background-color: white;
 }
-.section-2{
+/* .section-2{
     border: 2px solid black;
-}
+} */
 .sec2-div1 h2{
     margin-bottom: 20px;
     margin-top: 70px;
@@ -98,7 +98,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
    
 }
 .section-2 .sec2-div2{
@@ -144,8 +144,10 @@ nav{
     /* border: 2px solid brown; */
     padding: 40px;
 }
-
-.box-1-1{
+.box-1-1,.box-2-2,.box-3-3,.box-4-4{
+    padding: 10px;
+}
+/* .box-1-1{
     padding: 10px;
 }
 .box-2-2{
@@ -156,4 +158,9 @@ nav{
 }
 .box-4-4{
     padding: 10px;
+} */
+
+.section-3{
+    border: 1px solid red;
+         
 }
