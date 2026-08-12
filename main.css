@@ -56,7 +56,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 550px;
+    height: 535px;
     overflow: hidden;
     background-position-x: center;
     background-position-y: 40%;
@@ -67,16 +67,30 @@ nav{
     position: relative;
     
 }
+.sec1-dii{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .section-1 button{
     height: 45px;
     width: 140px;
     border-radius: 30px;
     font-weight:500;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 10px;
+    border: none;
+    background-color: white;
 }
 .section-2{
     border: 2px solid black;
+}
+.sec2-div1 h2{
+    margin-bottom: 20px;
+    margin-top: 70px;
+    font-size: 40px;
 }
 .section-2 .sec2-div1{
     display: flex;
@@ -90,29 +104,29 @@ nav{
 .section-2 .sec2-div2{
     display: flex;
     /* border: 3px solid blue; */
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
      text-align: center;
      margin-bottom: 80px
-    
-     
-
-   
 }
-/* .section-2 .play-logo{
-    border: 2px solid yellow;
+.section-2 .play-logo{
+    /* border: 2px solid yellow; */
+    padding-bottom: 30px;
     
 }
 .section-2 .library-logo{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    padding-bottom: 30px;
 }
 .section-2 .fav-logo{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    padding-bottom: 30px;
 }
 .section-2 .idi-logo{
-    border: 2px solid yellow;
-} */
+    /* border: 2px solid yellow; */
+    padding-bottom: 30px;
+}
 
 .box-1{
     /* border: 2px solid brown; */
