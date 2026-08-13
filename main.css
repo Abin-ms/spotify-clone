@@ -288,3 +288,37 @@ nav {
   font-size: 30px;
   font-weight: lighter;
 }
+
+.section-5{
+  background-image: url(./imagess/sec5iim.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position: center; */
+  position: relative;
+  /* padding-top: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  height: 420px;
+  overflow: hidden;
+  background-position-x: center;
+  background-position-y: 40%;
+}
+.section-5 h1{
+  color: white;
+  font-size: 60px;
+  margin-top: 60px;
+}
+.section-5 button{
+  
+ height: 45px;
+  width: 140px;
+  border-radius: 30px;
+  font-weight: 500;
+  /* margin-top: 40px; */
+  /* margin-bottom: 10px; */
+  border: none;
+  background-color: white;
+}
