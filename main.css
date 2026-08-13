@@ -191,6 +191,7 @@ nav {
 } */
 .section-4 {
   padding: 60px 10%;
+  border: 1px solid blue;
 }
 
 .section-4 h1 {
@@ -201,20 +202,83 @@ nav {
 
 .faq-container {
   width: 100%;
+  margin-left: 20px;
 }
 
 .details-1 {
   border-bottom: 1px solid #ddd;
+  /* border: 1px solid red; */
 }
 
-summary {
+
+
+.sum1 {
   padding: 25px;
   font-weight: bold;
   cursor: pointer;
   list-style: none;
   position: relative;
 }
-summary::after {
+.sum1:hover{
+  background-color: rgb(234, 231, 231);
+}
+.sum1::after {
+  content: "⌄";
+  position: absolute;
+  right: 25px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.faq2 {
+  width: 100%;
+}
+
+.details-2 {
+  border-bottom: 1px solid #ddd;
+  /* border: 1px solid red; */
+}
+
+
+
+.sum2 {
+  padding: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+.sum2:hover{
+  background-color: rgb(234, 231, 231);
+}
+.sum2::after {
+  content: "⌄";
+  position: absolute;
+  right: 25px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.faq3 {
+  width: 100%;
+}
+
+.details-3 {
+  border-bottom: 1px solid #ddd;
+  /* border: 1px solid red; */
+}
+
+
+.sum3 {
+  padding: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+.sum3:hover{
+  background-color: rgb(234, 231, 231);
+}
+.sum3::after {
   content: "⌄";
   position: absolute;
   right: 25px;
