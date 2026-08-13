@@ -52,7 +52,7 @@ nav {
   background-size: 100%;
   /* background-position: center; */
   position: relative;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,6 +86,7 @@ nav {
 }
 .section-1 button:hover{
     cursor: pointer;
+    padding: 30px;
 }
 /* .section-2{
     border: 2px solid black;
@@ -202,7 +203,7 @@ nav {
   width: 100%;
 }
 
-details {
+.details-1 {
   border-bottom: 1px solid #ddd;
 }
 
