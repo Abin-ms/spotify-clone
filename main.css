@@ -221,12 +221,13 @@ nav {
 }
 .sum1:hover{
   background-color: rgb(234, 231, 231);
+  text-decoration: underline;
 }
 .sum1::after {
   content: "⌄";
   position: absolute;
   right: 25px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: lighter;
 }
 .faq2 {
@@ -249,12 +250,13 @@ nav {
 }
 .sum2:hover{
   background-color: rgb(234, 231, 231);
+  text-decoration: underline;
 }
 .sum2::after {
   content: "⌄";
   position: absolute;
   right: 25px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: lighter;
 }
 
@@ -277,11 +279,12 @@ nav {
 }
 .sum3:hover{
   background-color: rgb(234, 231, 231);
+  text-decoration: underline;
 }
 .sum3::after {
   content: "⌄";
   position: absolute;
   right: 25px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: lighter;
 }
