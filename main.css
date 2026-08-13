@@ -329,14 +329,42 @@ footer{
  margin-right: 150px;
   border: 1px solid blue;
   display: flex ;
+  gap: 50px;
+  background-color: black;
+  color: white;
 }
 
 footer .footer-logo{
    width: 120px;
   height: 50px;
   display: flex;
+  fill: white;
+}
+footer h1{
+  font-size: 15px;
 }
 
 footer .footer-div1{
   border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer-div2{
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer-div3{
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer-div4{
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
