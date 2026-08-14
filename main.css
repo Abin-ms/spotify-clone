@@ -324,7 +324,7 @@ footer {
   /* margin: 100px; */
   /* margin-left: 150px;
  margin-right: 150px; */
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   gap: 50px;
   background-color: black;
@@ -346,55 +346,67 @@ footer h1 {
 }
 
 footer .footer-div1 {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 footer .footer-div2 {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 footer .footer-div3 {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 footer .footer-div4 {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.footer-div5 {
+.footer-div5{
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 .inst-logo {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  padding: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* padding: 35px; */
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(55, 54, 54);
 }
+
 .x-lgog {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  padding: 35px;
+  /* padding: 35px; */
+  display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(55, 54, 54);
 }
 .facebook-logo {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  padding: 35px;
+  /* padding: 35px; */
+  display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(55, 54, 54);
 }
+
+
