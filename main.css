@@ -418,6 +418,19 @@ background-color: rgb(55, 54, 54);
   border: 2px solid green;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 30px;
 }
-
+.hh{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+.uu{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 18px;
+  margin-right: 150px;
+}
