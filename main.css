@@ -306,6 +306,7 @@ nav {
   background-position-x: center;
   background-position-y: 40%;
   top: 20px;
+  
 }
 .section-5 h1{
   color: white;
@@ -323,15 +324,22 @@ nav {
   border: none;
   background-color: white;
 }
+.foot-sec{
+  background-color: black;
+}
 footer{
- margin: 100px;
- margin-left: 150px;
- margin-right: 150px;
+ /* margin: 100px; */
+ /* margin-left: 150px;
+ margin-right: 150px; */
   border: 1px solid blue;
   display: flex ;
   gap: 50px;
   background-color: black;
   color: white;
+  padding-top: 100px;
+  margin-right: 100px;
+  justify-content: center;
+  flex-direction: row;
 }
 
 footer .footer-logo{
