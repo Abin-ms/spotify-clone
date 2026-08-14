@@ -35,8 +35,8 @@ nav {
   text-decoration: none;
   font-size: 16px;
 }
-.div-1 a:hover{
-    color:  rgb(30, 215, 96);
+.div-1 a:hover {
+  color: rgb(30, 215, 96);
 }
 .div-1 h2 {
   color: white;
@@ -84,9 +84,9 @@ nav {
   border: none;
   background-color: white;
 }
-.section-1 button:hover{
-    cursor: pointer;
-    /* padding: 30px; */
+.section-1 button:hover {
+  cursor: pointer;
+  /* padding: 30px; */
 }
 /* .section-2{
     border: 2px solid black;
@@ -210,8 +210,6 @@ nav {
   /* border: 1px solid red; */
 }
 
-
-
 .sum1 {
   padding: 25px;
   font-weight: bold;
@@ -219,7 +217,7 @@ nav {
   list-style: none;
   position: relative;
 }
-.sum1:hover{
+.sum1:hover {
   background-color: rgb(234, 231, 231);
   text-decoration: underline;
 }
@@ -239,8 +237,6 @@ nav {
   /* border: 1px solid red; */
 }
 
-
-
 .sum2 {
   padding: 25px;
   font-weight: bold;
@@ -248,7 +244,7 @@ nav {
   list-style: none;
   position: relative;
 }
-.sum2:hover{
+.sum2:hover {
   background-color: rgb(234, 231, 231);
   text-decoration: underline;
 }
@@ -269,7 +265,6 @@ nav {
   /* border: 1px solid red; */
 }
 
-
 .sum3 {
   padding: 25px;
   font-weight: bold;
@@ -277,7 +272,7 @@ nav {
   list-style: none;
   position: relative;
 }
-.sum3:hover{
+.sum3:hover {
   background-color: rgb(234, 231, 231);
   text-decoration: underline;
 }
@@ -289,7 +284,7 @@ nav {
   font-weight: lighter;
 }
 
-.section-5{
+.section-5 {
   background-image: url(./imagess/sec5iim.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -306,16 +301,14 @@ nav {
   background-position-x: center;
   background-position-y: 40%;
   top: 20px;
-  
 }
-.section-5 h1{
+.section-5 h1 {
   color: white;
   font-size: 60px;
   margin-top: 60px;
 }
-.section-5 button{
-  
- height: 45px;
+.section-5 button {
+  height: 45px;
   width: 140px;
   border-radius: 30px;
   font-weight: 600px;
@@ -324,15 +317,15 @@ nav {
   border: none;
   background-color: white;
 }
-.foot-sec{
+.foot-sec {
   background-color: black;
 }
-footer{
- /* margin: 100px; */
- /* margin-left: 150px;
+footer {
+  /* margin: 100px; */
+  /* margin-left: 150px;
  margin-right: 150px; */
   border: 1px solid blue;
-  display: flex ;
+  display: flex;
   gap: 50px;
   background-color: black;
   color: white;
@@ -342,37 +335,46 @@ footer{
   flex-direction: row;
 }
 
-footer .footer-logo{
-   width: 120px;
+footer .footer-logo {
+  width: 120px;
   height: 50px;
   display: flex;
   fill: white;
 }
-footer h1{
+footer h1 {
   font-size: 15px;
 }
 
-footer .footer-div1{
+footer .footer-div1 {
   border: 1px solid yellow;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-footer .footer-div2{
+footer .footer-div2 {
   border: 1px solid yellow;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-footer .footer-div3{
+footer .footer-div3 {
   border: 1px solid yellow;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-footer .footer-div4{
+footer .footer-div4 {
   border: 1px solid yellow;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.inst-logo {
+  border: 1px solid red;
+}
+.x-lgog {
+  border: 1px solid red;
+}
+.facebook-logo {
+  border: 1px solid red;
 }
