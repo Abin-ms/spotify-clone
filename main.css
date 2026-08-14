@@ -319,6 +319,7 @@ nav {
 }
 .foot-sec {
   background-color: black;
+  
 }
 footer {
   /* margin: 100px; */
@@ -333,6 +334,8 @@ footer {
   margin-right: 100px;
   justify-content: center;
   flex-direction: row;
+   
+   padding-bottom: 100px;
 }
 
 footer .footer-logo {
@@ -349,30 +352,32 @@ footer .footer-div1 {
   /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 footer .footer-div2 {
   /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 footer .footer-div3 {
   /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 footer .footer-div4 {
   /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
+  width: 120px;
 }
 .footer-div5{
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-left: 60px;
 }
 .inst-logo {
   /* border: 1px solid red; */
@@ -409,4 +414,10 @@ justify-content: center;
 background-color: rgb(55, 54, 54);
 }
 
+.foot-la1{
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
